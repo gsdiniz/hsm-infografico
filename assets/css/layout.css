@@ -1,0 +1,617 @@
+html {
+    background-attachment: fixed;
+    background-image: url('../../images/bg.png');
+    background-size: cover;
+    /* overflow: hidden; */
+    scroll-behavior: smooth;
+}
+
+html, body {
+    /* height: 100%;
+    min-height: 100%; */
+}
+
+/* boxes */
+.hsm-box {
+    padding: 0 3.5rem;
+    min-height: 100%;
+    height: 100%;
+}
+.hsm-box > .container {
+    min-height: 100%;
+    height: 100%;
+    width: 906px;
+    position: relative;
+}
+
+.hsm-box .box-1 {
+    padding: 0 0 59px 0;
+    background-position: bottom center;
+    background-size: contain;
+}
+
+.hsm-box .box-1 .container {
+    height: 550px;
+}
+
+.hsm-box .box-1 .hero-body {
+    padding: 0;
+    position: relative;
+}
+
+.hsm-box .box-1 .container .titulo-bg {
+    display: block;
+    position: absolute;
+    background: url('../../images/logo.png');
+    background-size: contain;
+    width: 20%;
+    height: 10%;
+    background-repeat: no-repeat;
+    left: 3%;
+    top: 6%;
+}
+
+.hsm-box .box-1 .container .Img01 {
+    display: block;
+    position: absolute;
+    background: url('../../images/Img01.png');
+    background-size: contain;
+    width: 85%;
+    height: 80%;
+    background-repeat: no-repeat;
+    left: 3%;
+    top: 3%;
+}
+
+.hsm-box .box-1 .container .img2b {
+    display: block;
+    position: absolute;
+    background: url(../../images/img2b.png);
+    background-size: contain;
+    width: 83%;
+    height: 40%;
+    background-repeat: no-repeat;
+    left: 3%;
+    top: 72%;
+}
+
+.hsm-box .box-1 .container .img3_4 {
+    display: block;
+    position: absolute;
+    background: url(../../images/img3_4.png);
+    background-size: contain;
+    width: 85%;
+    height: 50%;
+    background-repeat: no-repeat;
+    left: 4%;
+    top: 95%;
+}
+
+
+.hsm-box .box-2 .conteudo {
+    width: 100%;
+    height: 4185px;
+    position: relative;
+}
+
+.hsm-box .box-2 .container .imgFundo {
+    display: block;
+    position: absolute;
+    background: url(../../images/imgFundo.png);
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    left: -4%;
+    top: -1%;
+}
+
+.hsm-box .box-2 .container .img6 {
+    display: block;
+    position: absolute;
+    background: url(../../images/img6.png);
+    background-size: contain;
+    width: 30%;
+    height: 30%;
+    background-repeat: no-repeat;
+    left: 16.5%;
+    top: -.58%;
+}
+
+.hsm-box .box-2 .container .img7 {
+    display: block;
+    position: absolute;
+    background: url(../../images/img7.png);
+    background-size: contain;
+    width: 45%;
+    height: 45%;
+    background-repeat: no-repeat;
+    left: 50%;
+    top: 1%;
+}
+
+.hsm-box .box-2 .container .img8 {
+    display: block;
+    position: absolute;
+    background: url(../../images/img8.png);
+    background-size: contain;
+    width: 7%;
+    height: 7%;
+    background-repeat: no-repeat;
+    left: 15%;
+    top: 6.78%;
+}
+
+.hsm-box .box-2 .container .img27 {
+    display: block;
+    position: absolute;
+    background: url(../../images/img27.png);
+    background-size: contain;
+    width: 20%;
+    height: 20%;
+    background-repeat: no-repeat;
+    left: 21.5%;
+    top: 8.1%;
+}
+
+.hsm-box .box-2 .container .img28 {
+    display: block;
+    position: absolute;
+    background: url(../../images/img28.png);
+    background-size: contain;
+    width: 53%;
+    height: 40%;
+    background-repeat: no-repeat;
+    left: 42%;
+    top: 6.55%;
+}
+
+.hsm-box .box-2 .container .img10 {
+    display: block;
+    position: absolute;
+    background: url(../../images/img10.png);
+    background-size: contain;
+    width: 30%;
+    height: 30%;
+    background-repeat: no-repeat;
+    left: 16.6%;
+    top: 8.35%;
+}
+
+.hsm-box .box-2 .container .img11 {
+    display: block;
+    position: absolute;
+    background: url(../../images/img11.png);
+    background-size: contain;
+    width: 45%;
+    height: 45%;
+    background-repeat: no-repeat;
+    left: 50%;
+    top: 12.8%;
+}
+
+.hsm-box .box-2 .container .img12 {
+    display: block;
+    position: absolute;
+    background: url(../../images/img12.png);
+    background-size: contain;
+    width: 7%;
+    height: 7%;
+    background-repeat: no-repeat;
+    left: 10%;
+    top: 18.4%;
+}
+
+.hsm-box .box-2 .container .img29 {
+    display: block;
+    position: absolute;
+    background: url(../../images/img29.png);
+    background-size: contain;
+    width: 25%;
+    height: 25%;
+    background-repeat: no-repeat;
+    left: 16%;
+    top: 19.6%;
+}
+
+.hsm-box .box-2 .container .img30 {
+    display: block;
+    position: absolute;
+    background: url(../../images/img30.png);
+    background-size: contain;
+    width: 53%;
+    height: 40%;
+    background-repeat: no-repeat;
+    left: 42%;
+    top: 18%;
+}
+
+.hsm-box .box-2 .container .img14 {
+    display: block;
+    position: absolute;
+    background: url(../../images/img14.png);
+    background-size: contain;
+    width: 30%;
+    height: 30%;
+    background-repeat: no-repeat;
+    left: 16.46%;
+    top: 19.85%;
+}
+
+.hsm-box .box-2 .container .img15 {
+    display: block;
+    position: absolute;
+    background: url(../../images/img15.png);
+    background-size: contain;
+    width: 45%;
+    height: 45%;
+    background-repeat: no-repeat;
+    left: 50%;
+    top: 24.5%;
+}
+
+.hsm-box .box-2 .container .img16 {
+    display: block;
+    position: absolute;
+    background: url(../../images/img16.png);
+    background-size: contain;
+    width: 7%;
+    height: 7%;
+    background-repeat: no-repeat;
+    left: 3.8%;
+    top: 30.5%;
+}
+
+.hsm-box .box-2 .container .img31 {
+    display: block;
+    position: absolute;
+    background: url(../../images/img31.png);
+    background-size: contain;
+    width: 32%;
+    height: 32%;
+    background-repeat: no-repeat;
+    left: 9.5%;
+    top: 31.9%;
+}
+
+.hsm-box .box-2 .container .img32 {
+    display: block;
+    position: absolute;
+    background: url(../../images/img32.png);
+    background-size: contain;
+    width: 53%;
+    height: 40%;
+    background-repeat: no-repeat;
+    left: 42%;
+    top: 30.3%;
+}
+
+.hsm-box .box-2 .container .img18 {
+    display: block;
+    position: absolute;
+    background: url(../../images/img18.png);
+    background-size: contain;
+    width: 30%;
+    height: 30%;
+    background-repeat: no-repeat;
+    left: 16.5%;
+    top: 31.92%;
+}
+
+.hsm-box .box-2 .container .img19 {
+    display: block;
+    position: absolute;
+    background: url(../../images/img19.png);
+    background-size: contain;
+    width: 45%;
+    height: 45%;
+    background-repeat: no-repeat;
+    left: 50%;
+    top: 36.5%;
+}
+
+.hsm-box .box-2 .container .img33 {
+    display: block;
+    position: absolute;
+    background: url(../../images/img33.png);
+    background-size: contain;
+    width: 45%;
+    height: 45%;
+    background-repeat: no-repeat;
+    left: 36%;
+    top: 43%;
+}
+
+.hsm-box .box-2 .container .img35 {
+    display: block;
+    position: absolute;
+    background: url(../../images/img35.png);
+    background-size: contain;
+    width: 29%;
+    height: 32%;
+    background-repeat: no-repeat;
+    left: 13.4%;
+    top: 46.35%;
+}
+
+.hsm-box .box-2 .container .img35b {
+    display: block;
+    position: absolute;
+    background: url(../../images/img35b.png);
+    background-size: contain;
+    width: 29%;
+    height: 32%;
+    background-repeat: no-repeat;
+    left: 13.4%;
+    top: 46.35%;
+}
+
+.hsm-box .box-2 .container .img36 {
+    display: block;
+    position: absolute;
+    background: url(../../images/img36.png);
+    background-size: contain;
+    width: 90%;
+    height: 90%;
+    background-repeat: no-repeat;
+    left: 5%;
+    top: 49.5%;
+}
+
+.hsm-box .box-2 .container .img37 {
+    display: block;
+    position: absolute;
+    background: url(../../images/img37.png);
+    background-size: contain;
+    width: 29%;
+    height: 32%;
+    background-repeat: no-repeat;
+    left: 61.2%;
+    top: 46.35%;
+}
+
+.hsm-box .box-2 .container .img37b {
+    display: block;
+    position: absolute;
+    background: url(../../images/img37b.png);
+    background-size: contain;
+    width: 29%;
+    height: 32%;
+    background-repeat: no-repeat;
+    left: 61.2%;
+    top: 46.35%;
+}
+
+.hsm-box .box-2 .container .img38 {
+    display: block;
+    position: absolute;
+    background: url(../../images/img38.png);
+    background-size: contain;
+    width: 90%;
+    height: 90%;
+    background-repeat: no-repeat;
+    left: 5%;
+    top: 49.5%;
+}
+
+.hsm-box .box-2 .container .img39b {
+    display: block;
+    position: absolute;
+    background: url(../../images/img39b.png);
+    background-size: contain;
+    width: 67%;
+    height: 30%;
+    background-repeat: no-repeat;
+    left: 5%;
+    top: 61.2%;
+}
+
+.hsm-box .box-2 .container .img39c {
+    display: block;
+    position: absolute;
+    background: url(../../images/img39c.png);
+    background-size: contain;
+    width: 20%;
+    height: 20%;
+    background-repeat: no-repeat;
+    left: 76%;
+    top: 61.1%;
+}
+
+.hsm-box .box-2 .container .img42 {
+    display: block;
+    position: absolute;
+    background: url(../../images/img42.png);
+    background-size: contain;
+    width: 17%;
+    height: 17%;
+    background-repeat: no-repeat;
+    left: 7.3%;
+    top: 63%;
+}
+
+.hsm-box .box-2 .container .img43 {
+    display: block;
+    position: absolute;
+    background: url(../../images/img43.png);
+    background-size: contain;
+    width: 17%;
+    height: 17%;
+    background-repeat: no-repeat;
+    left: 30.6%;
+    top: 63%;
+}
+
+.hsm-box .box-2 .container .img44 {
+    display: block;
+    position: absolute;
+    background: url(../../images/img44.png);
+    background-size: contain;
+    width: 17%;
+    height: 17%;
+    background-repeat: no-repeat;
+    left: 54%;
+    top: 63%;
+}
+
+.hsm-box .box-2 .container .img45 {
+    display: block;
+    position: absolute;
+    background: url(../../images/img45.png);
+    background-size: contain;
+    width: 17%;
+    height: 17%;
+    background-repeat: no-repeat;
+    left: 77.4%;
+    top: 63%;
+}
+
+.hsm-box .box-2 .container .img42b {
+    display: block;
+    position: absolute;
+    background: url(../../images/img42b.png);
+    background-size: contain;
+    width: 17%;
+    height: 17%;
+    background-repeat: no-repeat;
+    left: 7.3%;
+    top: 63%;
+}
+
+.hsm-box .box-2 .container .img43b {
+    display: block;
+    position: absolute;
+    background: url(../../images/img43b.png);
+    background-size: contain;
+    width: 17%;
+    height: 17%;
+    background-repeat: no-repeat;
+    left: 30.6%;
+    top: 63%;
+}
+
+.hsm-box .box-2 .container .img44b {
+    display: block;
+    position: absolute;
+    background: url(../../images/img44b.png);
+    background-size: contain;
+    width: 17%;
+    height: 17%;
+    background-repeat: no-repeat;
+    left: 54%;
+    top: 63%;
+}
+
+.hsm-box .box-2 .container .img45b {
+    display: block;
+    position: absolute;
+    background: url(../../images/img45b.png);
+    background-size: contain;
+    width: 17%;
+    height: 17%;
+    background-repeat: no-repeat;
+    left: 77.4%;
+    top: 63%;
+}
+
+.hsm-box .box-2 .container .img42c {
+    display: block;
+    position: absolute;
+    background: url(../../images/img42c.png);
+    background-size: contain;
+    width: 80%;
+    height: 50%;
+    background-repeat: no-repeat;
+    left: 11%;
+    top: 67.5%;
+}
+
+.hsm-box .box-2 .container .img43c {
+    display: block;
+    position: absolute;
+    background: url(../../images/img43c.png);
+    background-size: contain;
+    width: 80%;
+    height: 50%;
+    background-repeat: no-repeat;
+    left: 11%;
+    top: 67.5%;
+}
+
+.hsm-box .box-2 .container .img44c {
+    display: block;
+    position: absolute;
+    background: url(../../images/img44c.png);
+    background-size: contain;
+    width: 80%;
+    height: 50%;
+    background-repeat: no-repeat;
+    left: 11%;
+    top: 67.5%;
+}
+
+.hsm-box .box-2 .container .img45c {
+    display: block;
+    position: absolute;
+    background: url(../../images/img45c.png);
+    background-size: contain;
+    width: 80%;
+    height: 50%;
+    background-repeat: no-repeat;
+    left: 11%;
+    top: 67.5%;
+}
+
+.hsm-box .box-2 .container .img46 {
+    display: block;
+    position: absolute;
+    background: url(../../images/img46.png);
+    background-size: contain;
+    width: 90%;
+    height: 90%;
+    background-repeat: no-repeat;
+    left: 5%;
+    top: 73%;
+}
+
+.hsm-box .box-2 .container .img47 {
+    display: block;
+    position: absolute;
+    background: url(../../images/img47.png);
+    background-size: contain;
+    width: 70%;
+    height: 70%;
+    background-repeat: no-repeat;
+    left: 15%;
+    top: 76.5%;
+}
+/* fim boxes */
+
+.hsm-sombra-left,.hsm-sombra-right {
+    background-image: url('../../images/sombra.png');
+    background-repeat: repeat-y;
+    background-origin: content-box;
+    background-clip: border-box;
+    width: 25px;
+    min-height: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.hsm-sombra-right {
+    left: unset;
+    right: 0;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+#conteudo {
+    height: 100%;
+    margin: 25px;
+}
