@@ -418,6 +418,18 @@ html, body {
     top: 2925px;
 }
 
+.hsm-box .box-2 .container .img41 {
+    display: block;
+    position: absolute;
+    background: url(../../images/img41.png);
+    background-size: contain;
+    width: 811px;
+    height: 177px;
+    background-repeat: no-repeat;
+    left: 51px;
+    top: 2995px;
+}
+
 .hsm-box .box-2 .container .img42 {
     display: block;
     position: absolute;
@@ -438,7 +450,7 @@ html, body {
     width: 155px;
     height: 155px;
     background-repeat: no-repeat;
-    left: 275px;
+    left: 274px;
     top: 3005px;
 }
 
@@ -450,7 +462,7 @@ html, body {
     width: 155px;
     height: 155px;
     background-repeat: no-repeat;
-    left: 489px;
+    left: 485px;
     top: 3005px;
 }
 
@@ -462,7 +474,7 @@ html, body {
     width: 155px;
     height: 155px;
     background-repeat: no-repeat;
-    left: 703px;
+    left: 696px;
     top: 3005px;
 }
 
@@ -486,7 +498,7 @@ html, body {
     width: 155px;
     height: 202px;
     background-repeat: no-repeat;
-    left: 275px;
+    left: 274px;
     top: 3005px;
 }
 
@@ -498,7 +510,7 @@ html, body {
     width: 155px;
     height: 202px;
     background-repeat: no-repeat;
-    left: 489px;
+    left: 485px;
     top: 3005px;
 }
 
@@ -510,7 +522,7 @@ html, body {
     width: 155px;
     height: 202px;
     background-repeat: no-repeat;
-    left: 703px;
+    left: 696px;
     top: 3005px;
 }
 
