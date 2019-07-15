@@ -20,7 +20,7 @@ html, body {
 .hsm-box > .container {
     min-height: 100%;
     height: 100%;
-    width: 906px;
+    width: 1024px;
     position: relative;
 }
 
@@ -31,7 +31,7 @@ html, body {
 }
 
 .hsm-box .box-1 .container {
-    height: 550px;
+    height: 500px;
 }
 
 .hsm-box .box-1 .hero-body {
@@ -41,56 +41,56 @@ html, body {
 
 .hsm-box .box-1 .container .titulo-bg {
     display: block;
-    position: absolute;
+    position: relative;
     background: url('../../images/logo.png');
     background-size: contain;
-    width: 20%;
-    height: 10%;
+    width: 239px;
+    height: 55px;
     background-repeat: no-repeat;
-    left: 3%;
-    top: 6%;
+    left: 0px;
+    top: 0px;
 }
 
 .hsm-box .box-1 .container .Img01 {
     display: block;
-    position: absolute;
+    position: relative;
     background: url('../../images/Img01.png');
     background-size: contain;
-    width: 85%;
-    height: 80%;
+    width: 837px;
+    height: 366px;
     background-repeat: no-repeat;
-    left: 3%;
-    top: 3%;
+    left: 0px;
+    top: -75px;
 }
 
 .hsm-box .box-1 .container .img2b {
     display: block;
-    position: absolute;
+    position: relative;
     background: url(../../images/img2b.png);
     background-size: contain;
-    width: 83%;
-    height: 40%;
+    width: 820px;
+    height: 81px;
     background-repeat: no-repeat;
-    left: 3%;
-    top: 72%;
+    left: 0px;
+    top: -40px;
 }
 
 .hsm-box .box-1 .container .img3_4 {
     display: block;
-    position: absolute;
+    position: relative;
     background: url(../../images/img3_4.png);
     background-size: contain;
-    width: 85%;
-    height: 50%;
+    width: 852px;
+    height: 58px;
     background-repeat: no-repeat;
-    left: 4%;
-    top: 95%;
+    left: 0px;
+    top: 0px;
 }
 
 
 .hsm-box .box-2 .conteudo {
-    width: 100%;
-    height: 4185px;
+    width: 1024px;
+    height: 3800px;
     position: relative;
 }
 
@@ -99,11 +99,11 @@ html, body {
     position: absolute;
     background: url(../../images/imgFundo.png);
     background-size: contain;
-    width: 100%;
-    height: 100%;
+    width: 910px;
+    height: 3197px;
     background-repeat: no-repeat;
-    left: -4%;
-    top: -1%;
+    left: -40px;
+    top: -0px;
 }
 
 .hsm-box .box-2 .container .img6 {
@@ -111,11 +111,11 @@ html, body {
     position: absolute;
     background: url(../../images/img6.png);
     background-size: contain;
-    width: 30%;
-    height: 30%;
+    width: 264px;
+    height: 416px;
     background-repeat: no-repeat;
-    left: 16.5%;
-    top: -.58%;
+    left: 151.5px;
+    top: 24px;
 }
 
 .hsm-box .box-2 .container .img7 {
@@ -123,11 +123,11 @@ html, body {
     position: absolute;
     background: url(../../images/img7.png);
     background-size: contain;
-    width: 45%;
-    height: 45%;
+    width: 458px;
+    height: 172px;
     background-repeat: no-repeat;
-    left: 50%;
-    top: 1%;
+    left: 450px;
+    top: 84px;
 }
 
 .hsm-box .box-2 .container .img8 {
@@ -135,11 +135,11 @@ html, body {
     position: absolute;
     background: url(../../images/img8.png);
     background-size: contain;
-    width: 7%;
-    height: 7%;
+    width: 58px;
+    height:145px;
     background-repeat: no-repeat;
-    left: 15%;
-    top: 6.78%;
+    left: 140px;
+    top: 375px;
 }
 
 .hsm-box .box-2 .container .img27 {
@@ -147,11 +147,11 @@ html, body {
     position: absolute;
     background: url(../../images/img27.png);
     background-size: contain;
-    width: 20%;
-    height: 20%;
+    width: 173px;
+    height: 24px;
     background-repeat: no-repeat;
-    left: 21.5%;
-    top: 8.1%;
+    left: 197px;
+    top: 432px;
 }
 
 .hsm-box .box-2 .container .img28 {
@@ -159,11 +159,11 @@ html, body {
     position: absolute;
     background: url(../../images/img28.png);
     background-size: contain;
-    width: 53%;
-    height: 40%;
+    width: 537px;
+    height: 195px;
     background-repeat: no-repeat;
-    left: 42%;
-    top: 6.55%;
+    left: 376px;
+    top: 350px;
 }
 
 .hsm-box .box-2 .container .img10 {
@@ -171,11 +171,11 @@ html, body {
     position: absolute;
     background: url(../../images/img10.png);
     background-size: contain;
-    width: 30%;
-    height: 30%;
+    width: 263px;
+    height: 541px;
     background-repeat: no-repeat;
-    left: 16.6%;
-    top: 8.35%;
+    left: 151.5px;
+    top: 451px;
 }
 
 .hsm-box .box-2 .container .img11 {
@@ -183,11 +183,11 @@ html, body {
     position: absolute;
     background: url(../../images/img11.png);
     background-size: contain;
-    width: 45%;
-    height: 45%;
+    width: 454px;
+    height: 171px;
     background-repeat: no-repeat;
-    left: 50%;
-    top: 12.8%;
+    left: 460px;
+    top: 643px;
 }
 
 .hsm-box .box-2 .container .img12 {
@@ -195,11 +195,11 @@ html, body {
     position: absolute;
     background: url(../../images/img12.png);
     background-size: contain;
-    width: 7%;
-    height: 7%;
+    width: 58px;
+    height:145px;
     background-repeat: no-repeat;
-    left: 10%;
-    top: 18.4%;
+    left: 80px;
+    top: 920px;
 }
 
 .hsm-box .box-2 .container .img29 {
@@ -207,11 +207,11 @@ html, body {
     position: absolute;
     background: url(../../images/img29.png);
     background-size: contain;
-    width: 25%;
-    height: 25%;
+    width: 232px;
+    height: 25px;
     background-repeat: no-repeat;
-    left: 16%;
-    top: 19.6%;
+    left: 133px;
+    top: 980px;
 }
 
 .hsm-box .box-2 .container .img30 {
@@ -219,11 +219,11 @@ html, body {
     position: absolute;
     background: url(../../images/img30.png);
     background-size: contain;
-    width: 53%;
-    height: 40%;
+    width: 537px;
+    height: 222px;
     background-repeat: no-repeat;
-    left: 42%;
-    top: 18%;
+    left: 376px;
+    top: 895px;
 }
 
 .hsm-box .box-2 .container .img14 {
@@ -231,11 +231,11 @@ html, body {
     position: absolute;
     background: url(../../images/img14.png);
     background-size: contain;
-    width: 30%;
-    height: 30%;
+    width: 265px;
+    height: 557px;
     background-repeat: no-repeat;
-    left: 16.46%;
-    top: 19.85%;
+    left: 150px;
+    top: 993px;
 }
 
 .hsm-box .box-2 .container .img15 {
@@ -243,11 +243,11 @@ html, body {
     position: absolute;
     background: url(../../images/img15.png);
     background-size: contain;
-    width: 45%;
-    height: 45%;
+    width: 454px;
+    height: 171px;
     background-repeat: no-repeat;
-    left: 50%;
-    top: 24.5%;
+    left: 460px;
+    top: 1203px;
 }
 
 .hsm-box .box-2 .container .img16 {
@@ -255,11 +255,11 @@ html, body {
     position: absolute;
     background: url(../../images/img16.png);
     background-size: contain;
-    width: 7%;
-    height: 7%;
+    width: 58px;
+    height:145px;
     background-repeat: no-repeat;
-    left: 3.8%;
-    top: 30.5%;
+    left: 15px;
+    top: 1490px;
 }
 
 .hsm-box .box-2 .container .img31 {
@@ -267,11 +267,11 @@ html, body {
     position: absolute;
     background: url(../../images/img31.png);
     background-size: contain;
-    width: 32%;
-    height: 32%;
+    width: 294px;
+    height: 25px;
     background-repeat: no-repeat;
-    left: 9.5%;
-    top: 31.9%;
+    left: 73px;
+    top: 1548px;
 }
 
 .hsm-box .box-2 .container .img32 {
@@ -279,11 +279,11 @@ html, body {
     position: absolute;
     background: url(../../images/img32.png);
     background-size: contain;
-    width: 53%;
-    height: 40%;
+    width: 537px;
+    height: 200px;
     background-repeat: no-repeat;
-    left: 42%;
-    top: 30.3%;
+    left: 376px;
+    top: 1465px;
 }
 
 .hsm-box .box-2 .container .img18 {
@@ -291,11 +291,11 @@ html, body {
     position: absolute;
     background: url(../../images/img18.png);
     background-size: contain;
-    width: 30%;
-    height: 30%;
+    width: 264px;
+    height: 462px;
     background-repeat: no-repeat;
-    left: 16.5%;
-    top: 31.92%;
+    left: 151px;
+    top: 1561px;
 }
 
 .hsm-box .box-2 .container .img19 {
@@ -303,11 +303,11 @@ html, body {
     position: absolute;
     background: url(../../images/img19.png);
     background-size: contain;
-    width: 45%;
-    height: 45%;
+    width: 457px;
+    height: 172px;
     background-repeat: no-repeat;
-    left: 50%;
-    top: 36.5%;
+    left: 460px;
+    top: 1755px;
 }
 
 .hsm-box .box-2 .container .img33 {
@@ -315,11 +315,11 @@ html, body {
     position: absolute;
     background: url(../../images/img33.png);
     background-size: contain;
-    width: 45%;
-    height: 45%;
+    width: 473px;
+    height: 58px;
     background-repeat: no-repeat;
-    left: 36%;
-    top: 43%;
+    left: 320px;
+    top: 2065px;
 }
 
 .hsm-box .box-2 .container .img35 {
@@ -327,11 +327,11 @@ html, body {
     position: absolute;
     background: url(../../images/img35.png);
     background-size: contain;
-    width: 29%;
-    height: 32%;
+    width: 262px;
+    height: 72px;
     background-repeat: no-repeat;
-    left: 13.4%;
-    top: 46.35%;
+    left: 121px;
+    top: 2232px;
 }
 
 .hsm-box .box-2 .container .img35b {
@@ -339,11 +339,11 @@ html, body {
     position: absolute;
     background: url(../../images/img35b.png);
     background-size: contain;
-    width: 29%;
-    height: 32%;
+    width: 262px;
+    height: 130px;
     background-repeat: no-repeat;
-    left: 13.4%;
-    top: 46.35%;
+    left: 121px;
+    top: 2232px;
 }
 
 .hsm-box .box-2 .container .img36 {
@@ -351,11 +351,11 @@ html, body {
     position: absolute;
     background: url(../../images/img36.png);
     background-size: contain;
-    width: 90%;
-    height: 90%;
+    width: 831px;
+    height: 541px;
     background-repeat: no-repeat;
-    left: 5%;
-    top: 49.5%;
+    left: 50px;
+    top: 2375px;
 }
 
 .hsm-box .box-2 .container .img37 {
@@ -363,11 +363,11 @@ html, body {
     position: absolute;
     background: url(../../images/img37.png);
     background-size: contain;
-    width: 29%;
-    height: 32%;
+    width: 262px;
+    height: 72px;
     background-repeat: no-repeat;
-    left: 61.2%;
-    top: 46.35%;
+    left: 555px;
+    top: 2232px;
 }
 
 .hsm-box .box-2 .container .img37b {
@@ -375,11 +375,11 @@ html, body {
     position: absolute;
     background: url(../../images/img37b.png);
     background-size: contain;
-    width: 29%;
-    height: 32%;
+    width: 262px;
+    height: 130px;
     background-repeat: no-repeat;
-    left: 61.2%;
-    top: 46.35%;
+    left: 555px;
+    top: 2232px;
 }
 
 .hsm-box .box-2 .container .img38 {
@@ -387,11 +387,11 @@ html, body {
     position: absolute;
     background: url(../../images/img38.png);
     background-size: contain;
-    width: 90%;
-    height: 90%;
+    width: 831px;
+    height: 541px;
     background-repeat: no-repeat;
-    left: 5%;
-    top: 49.5%;
+    left: 50px;
+    top: 2375px;
 }
 
 .hsm-box .box-2 .container .img39b {
@@ -399,11 +399,11 @@ html, body {
     position: absolute;
     background: url(../../images/img39b.png);
     background-size: contain;
-    width: 67%;
-    height: 30%;
+    width: 565px;
+    height: 59px;
     background-repeat: no-repeat;
-    left: 5%;
-    top: 61.2%;
+    left: 50px;
+    top: 2928px;
 }
 
 .hsm-box .box-2 .container .img39c {
@@ -411,11 +411,11 @@ html, body {
     position: absolute;
     background: url(../../images/img39c.png);
     background-size: contain;
-    width: 20%;
-    height: 20%;
+    width: 174px;
+    height: 53px;
     background-repeat: no-repeat;
-    left: 76%;
-    top: 61.1%;
+    left: 700px;
+    top: 2925px;
 }
 
 .hsm-box .box-2 .container .img42 {
@@ -423,11 +423,11 @@ html, body {
     position: absolute;
     background: url(../../images/img42.png);
     background-size: contain;
-    width: 17%;
-    height: 17%;
+    width: 155px;
+    height: 155px;
     background-repeat: no-repeat;
-    left: 7.3%;
-    top: 63%;
+    left: 63px;
+    top: 3005px;
 }
 
 .hsm-box .box-2 .container .img43 {
@@ -435,11 +435,11 @@ html, body {
     position: absolute;
     background: url(../../images/img43.png);
     background-size: contain;
-    width: 17%;
-    height: 17%;
+    width: 155px;
+    height: 155px;
     background-repeat: no-repeat;
-    left: 30.6%;
-    top: 63%;
+    left: 275px;
+    top: 3005px;
 }
 
 .hsm-box .box-2 .container .img44 {
@@ -447,11 +447,11 @@ html, body {
     position: absolute;
     background: url(../../images/img44.png);
     background-size: contain;
-    width: 17%;
-    height: 17%;
+    width: 155px;
+    height: 155px;
     background-repeat: no-repeat;
-    left: 54%;
-    top: 63%;
+    left: 489px;
+    top: 3005px;
 }
 
 .hsm-box .box-2 .container .img45 {
@@ -459,11 +459,11 @@ html, body {
     position: absolute;
     background: url(../../images/img45.png);
     background-size: contain;
-    width: 17%;
-    height: 17%;
+    width: 155px;
+    height: 155px;
     background-repeat: no-repeat;
-    left: 77.4%;
-    top: 63%;
+    left: 703px;
+    top: 3005px;
 }
 
 .hsm-box .box-2 .container .img42b {
@@ -471,11 +471,11 @@ html, body {
     position: absolute;
     background: url(../../images/img42b.png);
     background-size: contain;
-    width: 17%;
-    height: 17%;
+    width: 155px;
+    height: 202px;
     background-repeat: no-repeat;
-    left: 7.3%;
-    top: 63%;
+    left: 63px;
+    top: 3005px;
 }
 
 .hsm-box .box-2 .container .img43b {
@@ -483,11 +483,11 @@ html, body {
     position: absolute;
     background: url(../../images/img43b.png);
     background-size: contain;
-    width: 17%;
-    height: 17%;
+    width: 155px;
+    height: 202px;
     background-repeat: no-repeat;
-    left: 30.6%;
-    top: 63%;
+    left: 275px;
+    top: 3005px;
 }
 
 .hsm-box .box-2 .container .img44b {
@@ -495,11 +495,11 @@ html, body {
     position: absolute;
     background: url(../../images/img44b.png);
     background-size: contain;
-    width: 17%;
-    height: 17%;
+    width: 155px;
+    height: 202px;
     background-repeat: no-repeat;
-    left: 54%;
-    top: 63%;
+    left: 489px;
+    top: 3005px;
 }
 
 .hsm-box .box-2 .container .img45b {
@@ -507,11 +507,11 @@ html, body {
     position: absolute;
     background: url(../../images/img45b.png);
     background-size: contain;
-    width: 17%;
-    height: 17%;
+    width: 155px;
+    height: 202px;
     background-repeat: no-repeat;
-    left: 77.4%;
-    top: 63%;
+    left: 703px;
+    top: 3005px;
 }
 
 .hsm-box .box-2 .container .img42c {
@@ -519,11 +519,11 @@ html, body {
     position: absolute;
     background: url(../../images/img42c.png);
     background-size: contain;
-    width: 80%;
-    height: 50%;
+    width: 733px;
+    height: 242px;
     background-repeat: no-repeat;
-    left: 11%;
-    top: 67.5%;
+    left: 100px;
+    top: 3225px;
 }
 
 .hsm-box .box-2 .container .img43c {
@@ -531,11 +531,11 @@ html, body {
     position: absolute;
     background: url(../../images/img43c.png);
     background-size: contain;
-    width: 80%;
-    height: 50%;
+    width: 733px;
+    height: 242px;
     background-repeat: no-repeat;
-    left: 11%;
-    top: 67.5%;
+    left: 100px;
+    top: 3225px;
 }
 
 .hsm-box .box-2 .container .img44c {
@@ -543,11 +543,11 @@ html, body {
     position: absolute;
     background: url(../../images/img44c.png);
     background-size: contain;
-    width: 80%;
-    height: 50%;
+    width: 733px;
+    height: 242px;
     background-repeat: no-repeat;
-    left: 11%;
-    top: 67.5%;
+    left: 100px;
+    top: 3225px;
 }
 
 .hsm-box .box-2 .container .img45c {
@@ -555,11 +555,11 @@ html, body {
     position: absolute;
     background: url(../../images/img45c.png);
     background-size: contain;
-    width: 80%;
-    height: 50%;
+    width: 733px;
+    height: 242px;
     background-repeat: no-repeat;
-    left: 11%;
-    top: 67.5%;
+    left: 100px;
+    top: 3225px;
 }
 
 .hsm-box .box-2 .container .img46 {
@@ -567,11 +567,11 @@ html, body {
     position: absolute;
     background: url(../../images/img46.png);
     background-size: contain;
-    width: 90%;
-    height: 90%;
+    width: 901px;
+    height: 136px;
     background-repeat: no-repeat;
-    left: 5%;
-    top: 73%;
+    left: 0px;
+    top: 3500px;
 }
 
 .hsm-box .box-2 .container .img47 {
@@ -579,11 +579,11 @@ html, body {
     position: absolute;
     background: url(../../images/img47.png);
     background-size: contain;
-    width: 70%;
-    height: 70%;
+    width: 643px;
+    height: 62px;
     background-repeat: no-repeat;
-    left: 15%;
-    top: 76.5%;
+    left: 145px;
+    top: 3690px;
 }
 /* fim boxes */
 
