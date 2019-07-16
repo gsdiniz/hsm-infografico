@@ -90,7 +90,7 @@ html, body {
 
 .hsm-box .box-2 .conteudo {
     width: 1024px;
-    height: 3800px;
+    height: 4000px;
     position: relative;
 }
 
@@ -627,11 +627,11 @@ html, body {
     position: absolute;
     background: url(../../images/img47.png);
     background-size: contain;
-    width: 643px;
-    height: 62px;
+    width: 504px;
+    height: 309px;
     background-repeat: no-repeat;
-    left: 145px;
-    top: 3690px;
+    left: 220px;
+    top: 3680px;
 }
 /* fim boxes */
 
