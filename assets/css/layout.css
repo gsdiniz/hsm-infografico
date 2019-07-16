@@ -68,7 +68,7 @@ html, body {
     position: relative;
     background: url(../../images/img2b.png);
     background-size: contain;
-    width: 820px;
+    width: 800px;
     height: 81px;
     background-repeat: no-repeat;
     left: 0px;
@@ -322,6 +322,18 @@ html, body {
     top: 2065px;
 }
 
+.hsm-box .box-2 .container .img48 {
+    display: block;
+    position: absolute;
+    background: url(../../images/img48.png);
+    background-size: contain;
+    width: 836px;
+    height: 23px;
+    background-repeat: no-repeat;
+    left: 38px;
+    top: 2165px;
+}
+
 .hsm-box .box-2 .container .img35 {
     display: block;
     position: absolute;
@@ -392,6 +404,30 @@ html, body {
     background-repeat: no-repeat;
     left: 50px;
     top: 2375px;
+}
+
+.hsm-box .box-2 .container .img49a {
+    display: block;
+    position: absolute;
+    background: url(../../images/img49.png);
+    background-size: contain;
+    width: 53px;
+    height: 52px;
+    background-repeat: no-repeat;
+    left: 220px;
+    top: 2282px;
+}
+
+.hsm-box .box-2 .container .img49b {
+    display: block;
+    position: absolute;
+    background: url(../../images/img49.png);
+    background-size: contain;
+    width: 53px;
+    height: 52px;
+    background-repeat: no-repeat;
+    left: 650px;
+    top: 2282px;
 }
 
 .hsm-box .box-2 .container .img39b {

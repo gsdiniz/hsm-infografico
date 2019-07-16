@@ -56,12 +56,14 @@
 								<span data-aos="fade-down" class="img18"/></span>
 								<span data-aos="fade-up" class="img19"/></span>
 								<span data-aos="fade-up" class="img33"/></span>
+								<span data-aos="fade-up" class="img48"/></span>
+	
 								<span data-aos="fade-left" data-gui data-gui-init='hide' class="img41"/></span>
 
-								<span data-aos="fade-left" data-gui data-gui-target='img35b' data-gui-init='show' data-gui-show='img36,img37' data-gui-hide='img37b,img38,img41,img39b,img39c,img42,img43,img44,img45,img42b,img43b,img44b,img45b,img42c,img43c,img44c,img45c' data-aos-delay="200" class="img35"/></span>
+								<span data-aos="fade-left" data-gui data-gui-target='img35b' data-gui-init='show' data-gui-show='img36,img37' data-gui-hide='img37b,img38,img41,img39b,img39c,img42,img43,img44,img45,img42b,img43b,img44b,img45b,img42c,img43c,img44c,img45c,img49a' data-aos-delay="200" class="img35"/></span>
 								<span data-aos="fade-up" data-gui data-gui-init='hide' class="img35b"/></span>
 								<span data-aos="fade-up" data-gui data-gui-init='hide' class="img36"/></span>
-								<span data-aos="fade-left" data-gui data-gui-target='img37b' data-gui-init='show' data-gui-show='img38,img35,img41,img39b,img39c,img42,img43,img44,img45' data-gui-hide='img35b,img36' data-aos-delay="500" class="img37"/></span>
+								<span data-aos="fade-left" data-gui data-gui-target='img37b' data-gui-init='show' data-gui-show='img38,img35,img41,img39b,img39c,img42,img43,img44,img45' data-gui-hide='img35b,img36,img49b' data-aos-delay="500" class="img37"/></span>
 								<span data-aos="fade-up" data-gui data-gui-init='hide' class="img37b"/></span>
 								<span data-aos="fade-up" data-gui data-gui-init='hide' class="img38"/></span>
 								<span data-aos="fade-right" data-gui data-gui-init='hide' class="img39b"/></span>
@@ -78,6 +80,8 @@
 								<span data-aos="fade-left" data-aos-delay="900" data-gui data-gui-target='img45b' data-gui-init='hide' data-gui-show='img45c,img43,img44,img42' data-gui-hide='img43b,img43c,img44b,img44c,img42b,img42c' class="img45"/></span>
 								<span data-aos="fade-up" data-gui data-gui-init='hide' class="img45b"/></span>
 								<span data-aos="fade-up" data-gui data-gui-init='hide' class="img45c"/></span>
+								<span data-aos="zoom-in" data-aos-delay="300" class="img49a"/></span>
+								<span data-aos="zoom-in" data-aos-delay="500" class="img49b"/></span>
 								<span data-aos="fade-up" class="img46"/></span>
 								<span data-aos="fade-down" class="img47"/></span>
 							</div>
@@ -95,6 +99,7 @@
   crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
 <script>
 	$(document).ready(function () {
 		AOS.init({
@@ -130,10 +135,12 @@
 					$(elem).hide()
 					$(`.${$target}`).show()
 					$.each($(elem).attr('data-gui-show').split(','), function (index, el) {
+						//TweenMax.to($(`.${el}`), .1, {autoAlpha:1});
 						$(`.${el}`).show();
 					})
 					$.each($(elem).attr('data-gui-hide').split(','), function (index, el) { 
-						$(`.${el}`).hide()
+						$(`.${el}`).hide();
+						//TweenMax.set($(`.${el}`),{autoAlpha:0});
 					})
 				})
 			}
@@ -141,6 +148,7 @@
 			if ($init == 'hide') {
 				$(elem).hide();
 			} 
+
 		})
 
 		$(window).on('scroll',function(ev) {
